@@ -2,8 +2,8 @@
 
 /**
  * main - integer print loop.
- * Description: Prints numbers from 0-9 using a for loop.
- * Return: Returns all single digit numbers of base 10.
+ * Description: Prints numbers from 0-9 (reverse) using a for loop.
+ * Return: Returns all single digit numbers in reverse of base 10.
  */
 int main(void)
 {
