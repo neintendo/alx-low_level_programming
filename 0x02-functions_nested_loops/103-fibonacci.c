@@ -2,30 +2,45 @@
 
 /**
  * main - fibonacci function
- * Description: prints the first 50 fibonacci numbers.
+ * Description: prints even fibonacci numbers to <4M.
  *
  * Return: 0 on success
  */
 int main(void)
 {
 	int a;
-	int n = 50;
+	int i;
+	int n = 32;
+	int mod;
+	int array[12];
+	int sum = 0;
 	long int one = 0;
 	long int two = 1;
 	long int next = one + two;
+	int *ptr;
+
+	ptr = array;
 
 	for (a = 1; a <= n; a++)
 	{
-		printf("%ld", next);
-		if (a < n)
+		mod = next % 2;
+		if (mod == 0)
 		{
-			printf(", ");
+			*ptr = next;
+			ptr++;
+			if (array[12] < 13)
+			{
+			sum = sum + array[i];
+			i++;
+			}
 		}
 		one = two;
 		two = next;
 		next = one + two;
 	}
+	printf("%d", sum);
 	printf("\n");
 
 	return (0);
 }
+
