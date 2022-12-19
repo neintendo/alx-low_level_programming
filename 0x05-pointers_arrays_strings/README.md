@@ -16,3 +16,6 @@
 
 - Prototype: void _puts(char *str);
 
+**4-print_rev.c:** prints a string, in reverse, followed by a new line.
+
+- Prototype: void print_rev(char *s);
