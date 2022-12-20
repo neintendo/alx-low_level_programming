@@ -19,3 +19,10 @@
 **4-print_rev.c:** prints a string, in reverse, followed by a new line.
 
 - Prototype: void print_rev(char *s);
+
+
+
+**6-puts2.c:** prints every other character of a string, starting with the first character, followed by a new line.
+
+- Prototype: void puts2(char *str);
+
