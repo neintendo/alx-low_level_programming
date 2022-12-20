@@ -39,3 +39,7 @@
 - Numbers must be separated by comma, followed by a space
 - The numbers should be displayed in the same order as they are stored in the array
 
+**9-strcpy.c:** copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
+
+- Prototype: char *_strcpy(char *dest, char *src);
+- Return value: the pointer to dest
