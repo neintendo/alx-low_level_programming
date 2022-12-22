@@ -13,3 +13,7 @@
         it will use at most n bytes from src; and
         src does not need to be null-terminated if it contains n or more bytes
 - Return a pointer to the resulting string dest
+
+**2-strncpy.c:** copies a string.
+
+- Prototype: char *_strncpy(char *dest, char *src, int n);
