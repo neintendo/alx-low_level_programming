@@ -17,3 +17,7 @@
 **2-strncpy.c:** copies a string.
 
 - Prototype: char *_strncpy(char *dest, char *src, int n);
+
+**3-strcmp.c:** compares two strings.
+
+- Prototype: int _strcmp(char *s1, char *s2);
