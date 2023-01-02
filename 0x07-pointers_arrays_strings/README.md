@@ -1,4 +1,4 @@
-## 0x07-pointers_arrays_strings
+## 0x07-pointers_arrays_strings.
 
 **0-memset.c:** fills memory with a constant byte.
 
@@ -11,4 +11,10 @@
 - Prototype: char *_memcpy(char *dest, char *src, unsigned int n);
 - The _memcpy() function copies n bytes from memory area src to memory area dest
 - Returns a pointer to dest
+
+**2-strchr.c** locates a character in a string.
+
+- Prototype: char *_strchr(char *s, char c);
+- Returns a pointer to the first occurrence of the character c in the string s, or NULL if the character is not found
+
 
