@@ -21,3 +21,15 @@
 
 - Prototype: unsigned int _strspn(char *s, char *accept);
 - Returns the number of bytes in the initial segment of s which consist only of bytes from accept
+
+**4-strpbrk.c:** searches a string for any of a set of bytes.
+
+- Prototype: char *_strpbrk(char *s, char *accept);
+- The _strpbrk() function locates the first occurrence in the string s of any of the bytes in the string accept
+- Returns a pointer to the byte in s that matches one of the bytes in accept, or NULL if no such byte is found
+
+
+
+**7-print_chessboard.c:** prints the chessboard.
+
+- Prototype: void print_chessboard(char (*a)[8]);
