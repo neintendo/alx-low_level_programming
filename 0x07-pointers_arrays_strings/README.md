@@ -29,7 +29,6 @@
 - Returns a pointer to the byte in s that matches one of the bytes in accept, or NULL if no such byte is found
 
 
-
 **7-print_chessboard.c:** prints the chessboard.
 
 - Prototype: void print_chessboard(char (*a)[8]);
