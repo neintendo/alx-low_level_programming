@@ -25,3 +25,5 @@ char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 ```
 **main.h:** has prototypes of the above functions.
+
+**create_static_lib.sh:** creates a static library called liball.a from all the .c files that are in the current directory.
