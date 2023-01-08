@@ -26,7 +26,7 @@ void more_numbers(void)
 			}
 		}
 	}
-		write(1, "\n", 2);
+		write(1, "\n", 1);
 		loop++;
 	} while (loop <= 10);
 }
