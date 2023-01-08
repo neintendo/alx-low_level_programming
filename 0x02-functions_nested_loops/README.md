@@ -47,3 +47,33 @@
 **9-times_table.c:** prints the 9 times table, starting with 0.
 
 - Prototype: void times_table(void);
+
+**10-add.c:** adds two integers and returns the result.
+
+- Prototype: int add(int, int);
+
+**11-print_to_98.c:** prints all natural numbers from n to 98, followed by a new line.
+
+- Prototype: void print_to_98(int n);
+- Numbers must be separated by a comma, followed by a space
+- Numbers should be printed in order
+- The first printed number should be the number passed to your function
+- The last printed number should be 98
+
+**100-times_table.c:** prints the n times table, starting with 0.
+
+- Prototype: void print_times_table(int n);
+- If n is greater than 15 or less than 0 the function should not print anything
+
+**101-natural.c:** computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded) followed by a new line.
+
+**102-fibonacci.c:** prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line.
+
+- The numbers must be separated by comma, followed by a space.
+
+**103-fibonacci.c:**  finds and prints the sum (less than 4,000,000) of the even-valued fibonacci terms.
+
+**104-fibonacci.c:** finds and prints the first 98 Fibonacci numbers, starting with 1 and 2, followed by a new line.
+
+- The numbers should be separated by comma, followed by a space ,
+

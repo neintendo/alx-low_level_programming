@@ -8,39 +8,34 @@
  */
 int main(void)
 {
-	int a;
 	int i;
-	int n = 32;
-	int mod;
-	int array[12];
-	int sum = 0;
+	int index = 0;
+	int storage[10000];
+	long int sum = 0;
 	long int one = 0;
 	long int two = 1;
 	long int next = one + two;
-	int *ptr;
 
-	ptr = array;
-
-	for (a = 1; a <= n; a++)
+	while (next <= 4000000)
 	{
-		mod = next % 2;
-		if (mod == 0)
+		if (next % 2 == 0)
 		{
-			*ptr = next;
-			ptr++;
-			if (array[12] < 13)
-			{
-			sum = sum + array[i];
-			i++;
-			}
+			storage[index] = next;
+			index++;
 		}
+
 		one = two;
 		two = next;
 		next = one + two;
 	}
-	printf("%d", sum);
+
+	for (i = 0; i < index; i++)
+	{
+		sum = sum + storage[i];
+	}
+
+	printf("%ld", sum);
 	printf("\n");
 
 	return (0);
 }
-
