@@ -8,17 +8,20 @@
  * @cmp: a function to compare an integer in @array.
  *
  * Return: returns 0 on success, -1 on error.
-*/
+ */
 int int_index(int *array, int size, int (*cmp)(int))
 {
-	int a;
+	int a = 0;
 
-	for (a = 0; a < size; a++)
+	if (size <= 0 || a == size || array == NULL || (*cmp) == NULL)
+		return (-1);
+
+	for (; a < size; a++)
 	{
-		if (size <= 0 || a == size || array == NULL || cmp == NULL)
-			return (-1);
 		if (cmp(array[a]) != 0)
 			return (a);
+		if (a == size - 1)
+			return (-1);
 	}
 
 	return (0);
