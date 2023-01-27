@@ -14,7 +14,7 @@ char *_strstr(char *haystack, char *needle)
 	char *counter = needle;
 	char *needle_reset = needle;
 	char *init = haystack;
-	char *null_str = "NULL";
+	char *null_str = "nil";
 
 	while (*counter)
 	{
