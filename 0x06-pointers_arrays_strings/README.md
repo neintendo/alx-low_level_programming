@@ -21,3 +21,7 @@
 **3-strcmp.c:** compares two strings.
 
 - Prototype: int _strcmp(char *s1, char *s2);
+
+**4-rev_array.c:** reverses the content of an array of integers.
+
+- Prototype: void reverse_array(int *a, int n); where n is the number of elements of the array
