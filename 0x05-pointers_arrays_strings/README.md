@@ -20,7 +20,9 @@
 
 - Prototype: void print_rev(char *s);
 
+**5-rev_string.c:**  reverses a string.
 
+- Prototype: void rev_string(char *s);
 
 **6-puts2.c:** prints every other character of a string, starting with the first character, followed by a new line.
 
