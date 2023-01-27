@@ -39,3 +39,7 @@
 **7-print_chessboard.c:** prints the chessboard.
 
 - Prototype: void print_chessboard(char (*a)[8]);
+
+**8-print_diagsums.c:** prints the sum of the two diagonals of a square matrix of integers.
+
+- Prototype: void print_diagsums(int *a, int size);
