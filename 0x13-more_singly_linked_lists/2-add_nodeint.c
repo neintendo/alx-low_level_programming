@@ -6,8 +6,8 @@
  * @head: the first node.
  * @n: integer in the current node.
  *
- * Return: returns listint_t with new node.
-*/
+ * Return: the address of the new element, or NULL if it failed.
+ */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
 	listint_t *new_node;
