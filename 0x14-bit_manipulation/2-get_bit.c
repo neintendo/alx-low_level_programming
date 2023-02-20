@@ -15,11 +15,11 @@ int get_bit(unsigned long int n, unsigned int index)
 	unsigned int i = 0;
 	int value = 0;
 
+	if (n == 0 || n == '\0' || index > 32)
+		return (-1);
+
 	if (n == ULONG_MAX)
 		return (1);
-
-	if (n == 0 || n == '\0')
-		return (-1);
 
 	while (n < max)
 		max *= 0.5;
