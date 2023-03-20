@@ -27,3 +27,13 @@ char *_strstr(char *haystack, char *needle);
 **main.h:** has prototypes of the above functions.
 
 **1-create_dynamic_lib.sh:** creates a dynamic library called liball.so from all the .c files that are in the current directory.
+
+**100-operations.so:** contains basic math functions listed below:
+
+```
+long int add(long int a, long int b);
+long int sub(long int a, long int b);
+long int mul(long int a, long int b);
+long int div(long int a, long int b);
+long int mod(long int a, long int b);
+```
