@@ -25,3 +25,5 @@ char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 ```
 **main.h:** has prototypes of the above functions.
+
+**1-create_dynamic_lib.sh:** creates a dynamic library called liball.so from all the .c files that are in the current directory.
