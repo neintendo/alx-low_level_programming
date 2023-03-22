@@ -22,3 +22,9 @@
 **4-free_dlistint.c:** frees a dlistint_t list.
 
 - Prototype: `void free_dlistint(dlistint_t *head);`
+
+**5-get_dnodeint.c:** returns the nth node of a `dlistint_t` linked list.
+
+- Prototype: `dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);`
+- `index` is the index of the node, starting from 0.
+- If the node does not exist, return `NULL`
