@@ -18,3 +18,7 @@
 
 - Prototype: `dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);`
 - Return: the address of the new element, or `NULL` if it failed.
+
+**4-free_dlistint.c:** frees a dlistint_t list.
+
+- Prototype: `void free_dlistint(dlistint_t *head);`
