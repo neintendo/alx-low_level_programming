@@ -15,3 +15,7 @@
 **4-new_dog.c:** a function that creates a new dog.
 
 - Prototype: `dog_t *new_dog(char *name, float age, char *owner);`
+
+**5-free_dog.c:**  a function that frees dogs.
+
+- Prototype: `void free_dog(dog_t *d);`
